@@ -1,8 +1,8 @@
-# 6Top
+# 6Topo
 
-6Top is an IPv6 topology probing algorithm that operates on a global network scale, utilizing a prefix space tree. Its core observation is the correlation between prefix hierarchical relationships and their distribution in topological space. 6Top takes IPv6 seed addresses and a prefix list as input, performs variable-dimensional DHC hierarchical clustering guided by prefix information, and generates a prefix space tree.
+6Topo is an IPv6 topology probing algorithm that operates on a global network scale, utilizing a prefix space tree. Its core observation is the correlation between prefix hierarchical relationships and their distribution in topological space. 6Topo takes IPv6 seed addresses and a prefix list as input, performs variable-dimensional DHC hierarchical clustering guided by prefix information, and generates a prefix space tree.
 
-The algorithm begins with a hierarchical traversal from the root node until it encounters leaf nodes or nodes with prefix lengths greater than or equal to a specified starting prefix length. These nodes' corresponding prefixes are then used as targets for pre-scanning probes. After pre-scanning, 6Top selectively traverses the prefix space tree based on prefix hierarchical relationships and probing feedback. It generates probing prefixes and conducts iterative topology probing. The probing feedback not only determines which subtrees need to be traversed but also dictates the traversal order.
+The algorithm begins with a hierarchical traversal from the root node until it encounters leaf nodes or nodes with prefix lengths greater than or equal to a specified starting prefix length. These nodes' corresponding prefixes are then used as targets for pre-scanning probes. After pre-scanning, 6Topo selectively traverses the prefix space tree based on prefix hierarchical relationships and probing feedback. It generates probing prefixes and conducts iterative topology probing. The probing feedback not only determines which subtrees need to be traversed but also dictates the traversal order.
 
 ## Installation
 
