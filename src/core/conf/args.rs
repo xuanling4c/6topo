@@ -124,7 +124,7 @@ pub struct Args{
     #[arg(short = 'q', long = "disable_sys_log", default_value_t = false, help = "关闭日志终端输出")]
     pub disable_sys_log:bool,
 
-    #[arg(long = "log_level", help = "日志等级 示例: 0 1 2 3 4 5 从0到5依次升高, 小写形式的 trace debug info warn error. 默认值为trace")]
+    #[arg(long = "log_level", help = "日志等级 示例: 0 1 2 3 4 5 从0到5依次升高, 小写形式的 trace debug info warn error. 默认值为info")]
     pub log_level:Option<String>,
 
     #[arg(long = "log_file", help = "日志输出文件")]
